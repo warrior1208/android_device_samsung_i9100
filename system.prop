@@ -2,6 +2,11 @@
 # system.prop for i9100
 #
 
+<<<<<<< HEAD
 
 rild.libpath=/system/lib/libsec-ril.so
+=======
+dalvik.vm.dexopt-data-only=1
+rild.libpath=/system/lib/dmitry-ril.so
+>>>>>>> cd404b3... Uh, Make ril work.. I guess..
 rild.libargs=-d /dev/ttyS0
