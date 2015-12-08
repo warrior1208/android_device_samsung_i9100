@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product-if-exists, vendor/samsung/i9100/i9100-vendor.mk)
 
-
-
-
-
+# Make cellular work
+PRODUCT_PACKAGES += \
+	dmitry-ril \
+	libdmitrygr_helper
