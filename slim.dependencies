@@ -1,16 +1,21 @@
 [
     {
-        "repository": "SlimRoms/device_samsung_galaxys2-common",
+        "repository": "warrior1208/android_device_samsung_galaxys2-common",
         "target_path": "device/samsung/galaxys2-common",
         "branch": "mm6.0"
     },
     {
-        "repository": "SlimRoms/kernel_samsung_smdk4412",
+        "repository": "warrior1208/android_device_samsung_i9100",
+        "target_path": "device/samsung/i9100",
+        "branch": "mm6.0"
+    },
+    {
+        "repository": "warrior1208/android_kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
         "branch": "mm6.0"
     },
     {
-        "repository": "SlimRoms/hardware_samsung",
+        "repository": "warrior1208/android_hardware_samsung",
         "target_path": "hardware/samsung",
         "branch": "mm6.0"
     }
