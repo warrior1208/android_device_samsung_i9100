@@ -58,8 +58,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ramdisk/twrp.fstab:recovery/root/etc/twrp.fstab
 
 $(call inherit-product-if-exists, vendor/samsung/i9100/i9100-vendor.mk)
-
-
-
-
-
